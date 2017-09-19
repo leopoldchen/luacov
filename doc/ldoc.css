@@ -6,10 +6,6 @@ body {
     background: #eff4ff;
 }
 
-.product {
-    display: none;
-}
-
 a:link { color: #008fee; }
 a:visited { color: #008fee; }
 a:hover { color: #22a7ff; }
@@ -17,7 +13,7 @@ a:hover { color: #22a7ff; }
 h1 { font-size:26px; font-weight: normal; }
 h2 { font-size:22px; font-weight: normal; }
 h3 { font-size:18px; font-weight: normal; }
-h4 { font-size:16px; font-weight: normal; }
+h4 { font-size:16px; font-weight: bold; }
 
 hr {
     height: 1px;
@@ -119,7 +115,13 @@ p.name {
     margin-right: 15px;
     margin-left: 15px;
     margin-bottom: 5px;
-    border-bottom: solid 1px #def;
+    border-bottom: solid 1px #bcd;
+}
+
+#content h4 {
+    margin-right: 15px;
+    margin-left: 15px;
+    border-bottom: solid 1px #bcd;
 }
 
 #content pre {
@@ -164,7 +166,6 @@ table.index td { text-align: left; vertical-align: top; }
 
 #content {
     margin-left: 14em;
-    width-max: 700px;
 }
 
 #content p {
@@ -176,6 +177,10 @@ table.index td { text-align: left; vertical-align: top; }
     padding-left: 15px;
     padding-right: 15px;
     background-color: white;
+}
+
+#content p, #content table, #content ol, #content ul, #content dl {
+    max-width: 900px;
 }
 
 #about {
@@ -226,6 +231,7 @@ dl.function dt {
 
 dl.function dd {
     margin-left: 15px;
+    margin-right: 15px;
     margin-top: 5px;
     margin-bottom: 15px;
 }
@@ -236,6 +242,7 @@ dl.function dd {
     padding-left: 0px;
     font-size: 16px;
     color: rgb(128, 128, 128);
+    border-bottom: solid 1px #def;
 }
 
 #content dl.function dd ul, #content dl.function dd ol {
@@ -267,10 +274,10 @@ a:target + * {
 
 
 /* styles for prettification of source */
-pre .comment { color: #558817; }
+pre .comment { color: #bbccaa; }
 pre .constant { color: #a8660d; }
 pre .escape { color: #844631; }
-pre .keyword { color: #aa5050; font-weight: bold; }
+pre .keyword { color: #ffc090; font-weight: bold; }
 pre .library { color: #0e7c6b; }
 pre .marker { color: #512b1e; background: #fedc56; font-weight: bold; }
 pre .string { color: #8080ff; }
