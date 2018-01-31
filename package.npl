@@ -1,0 +1,12 @@
+{
+    ["keywords"] = {
+      [1] = "luacov",
+    },
+    ["version"] = "1.0.0",
+    ["rendme"] = "README.md",
+    ["dependencies"] = {
+    },
+    ["author"] = "keplerproject",
+    ["name"] = "luacov",
+    ["description"] = "Coverage analysis tool for Lua scripts",
+  }
